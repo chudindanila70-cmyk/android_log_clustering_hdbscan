@@ -25,11 +25,13 @@
 - Random Forest на тесте достигает 82% точности.
 - Самые информативные слова для кластеризации – `error`, `null`, `gettempinfo`, `hme_jpeg_dec_delete` и т.д.
 
-Как запустить?
-1. Установите библиотеки:
-   ```bash
+
+ Установите библиотеки:
    pip install pandas numpy scikit-learn hdbscan matplotlib seaborn
 
+Как запустить?
+git clone https://github.com/chudindanila70-cmyk/android_log_clustering_hdbscan.git
+cd android_log_clustering_hdbscan
 
 
 Датасет можно получить по ссылке: https://www.kaggle.com/datasets/omduggineni/loghub-android-log-data
